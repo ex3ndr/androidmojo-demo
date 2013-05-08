@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="wrap_content"
+              android:textColor="#333333"
+              android:textSize="18sp"
+              android:paddingTop="5dp"
+              android:paddingBottom="5dp"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"
+              android:text="Background hack demo"/>
+
+    <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="doOpenNormalBackground"
+            android:text="Open Original Version"/>
+
+    <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="doOpenFastBackground"
+            android:text="Open Fast Version"/>
+</LinearLayout>
+
